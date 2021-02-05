@@ -1,0 +1,22 @@
+.navbar_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+}
+
+
+.navbar_container > h1 {
+    flex: 0.7;
+    margin-left: 15px;
+}
+
+.navbar_menu{
+    display: flex;
+    flex: 0.3;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 15px;
+    list-style: none;
+}
+
